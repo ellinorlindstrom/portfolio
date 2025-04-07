@@ -6,7 +6,6 @@ import { fileURLToPath } from 'node:url';
 const dirname =
 	typeof __dirname !== 'undefined' ? __dirname : path.dirname(fileURLToPath(import.meta.url));
 
-// More info at: https://storybook.js.org/docs/writing-tests/test-addon
 export default defineConfig({
 	plugins: [sveltekit()],
 	test: {
