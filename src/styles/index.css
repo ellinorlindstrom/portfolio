@@ -1,1 +1,9 @@
-@layer reset, base, tokens, recipes, utilities; 
+@layer reset, base, tokens, recipes, utilities;
+
+@layer base {
+  .layout-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+  }
+}
