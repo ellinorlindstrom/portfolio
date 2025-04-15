@@ -9,11 +9,11 @@
 <style>
 	.logo {
 		display: flex;
-		align-items: center;
+		align-items: flex-start;
 	}
 
 	.logo img {
-		max-width: 100px;
+		max-width: 70px;
 		height: auto;
 	}
 </style>
