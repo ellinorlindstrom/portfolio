@@ -13,7 +13,7 @@
 	}
 
 	.logo img {
-		max-width: 70px;
+		max-width: 50px;
 		height: auto;
 	}
 </style>
