@@ -7,6 +7,36 @@
 	<div class="frame-container">
 		<a href="https://starwarsfunkyclopedia.netlify.app/" target="_blank" rel="noopener noreferrer">
 			<img
+				src="../projects/portfolio-framed.png"
+				alt="Star wars encyclopedia project"
+				loading="lazy"
+				class="frame"
+			/>
+		</a>
+		<h3 class="project-title">Star Wars Encyclopedia</h3>
+		<p class="project-description">
+			School project. All things Star Wars—films, characters, planets, starships, and more, built in
+			react.
+		</p>
+	</div>
+	<div class="frame-container">
+		<a href="https://starwarsfunkyclopedia.netlify.app/" target="_blank" rel="noopener noreferrer">
+			<img
+				src="../projects/3d-portfolio-framed.png"
+				alt="Star wars encyclopedia project"
+				loading="lazy"
+				class="frame"
+			/>
+		</a>
+		<h3 class="project-title">Star Wars Encyclopedia</h3>
+		<p class="project-description">
+			School project. All things Star Wars—films, characters, planets, starships, and more, built in
+			react.
+		</p>
+	</div>
+	<div class="frame-container">
+		<a href="https://starwarsfunkyclopedia.netlify.app/" target="_blank" rel="noopener noreferrer">
+			<img
 				src="../projects/star-wars-framed.png"
 				alt="Star wars encyclopedia project"
 				loading="lazy"
@@ -76,37 +106,23 @@
 </div>
 
 <style>
-	.section-heading {
-		text-align: center;
-		padding: 2rem 0;
-		width: 100%;
-	}
 	.projects-container {
 		display: grid;
 		grid-template-columns: 1fr;
-		gap: 2rem;
-		text-align: center;
-		margin: 0 auto;
-		max-width: 1000%;
+		gap: 4rem;
+		text-align: left;
 	}
 
-	.frame-container {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		position: relative;
-		width: 100%;
-		max-width: 600px;
-		margin: 0 auto;
+	.project-title {
+		font-size: 1.5rem;
+		margin-top: 1rem;
 	}
 
-	.frame {
-		position: relative;
-		max-width: 100%;
-	}
-	.frame-container:nth-child(n) {
-		grid-column: 1;
-		grid-row: auto;
+	.project-description {
+		color: var(--text-color);
+		font-size: 0.8rem;
+		margin-top: 0.5rem;
+		width: 75%;
 	}
 
 	@media (min-width: 769px) {
@@ -133,12 +149,20 @@
 
 		.frame-container:nth-child(4) {
 			grid-column: 1;
+			grid-row: 4;
+		}
+		.frame-container:nth-child(5) {
+			grid-column: 1;
 			grid-row: 3;
 		}
-
-		.frame-container:nth-child(5) {
+		.frame-container:nth-child(6) {
 			grid-column: 2;
-			grid-row: 2 / span 2;
+			grid-row: 4;
+		}
+
+		.frame-container:nth-child(7) {
+			grid-column: 2;
+			grid-row: 2 / span 3;
 		}
 	}
 </style>

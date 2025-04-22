@@ -55,7 +55,6 @@
   h1, .heading-1 {
     font-family: 'Averia Libre', serif;
     font-size: 3.25rem; /* 52px */
-    line-height: 1.2;
     color: var(--primary-color);
     margin-bottom: var(--space-4);
   }
@@ -63,51 +62,32 @@
   h2, .heading-2 {
     font-family: 'Averia Libre', serif;
     font-size: 2.625rem; /* 42px */
-    line-height: 1.2;
     color: var(--primary-color);
     margin-bottom: var(--space-4);
 
   }
 
-  h3, .heading-3 {
+  h3 {
     font-family: 'Averia Libre', serif;
     font-size: 1.875rem; /* 30px */
-    line-height: 1.2;
     color: var(--primary-color);
   }
 
-  h4, .heading-4 {
+  h4 {
     font-family: 'Averia Libre', serif;
     font-size: 1.5rem; /* 24px */
-    line-height: 1.2;
     color: var(--primary-color);
   }
 
-  h5, .heading-5 {
+  h5 {
     font-family: 'Averia Libre', serif;
     font-size: 1.125rem; /* 18px */
-    line-height: 1.2;
     color: var(--primary-color);
   }
 
-  h6, .heading-6 {
+  h6{
     font-family: 'Averia Libre', serif;
     font-size: 1.0625rem; /* 17px */
-    line-height: 1.2;
-    color: var(--primary-color);
-  }
-
-  .heading-7 {
-    font-family: 'Averia Libre', serif;
-    font-size: 0.9375rem; /* 15px */
-    line-height: 1.2;
-    color: var(--primary-color);
-  }
-
-  .heading-8 {
-    font-family: 'Averia Libre', serif;
-    font-size: 0.875rem; /* 14px */
-    line-height: 1.2;
     color: var(--primary-color);
   }
 
