@@ -1,5 +1,5 @@
 <script>
-	export let logoUrl = 'static/icons/EL-icon.png';
+	export let logoUrl = '../icons/EL-icon.png';
 </script>
 
 <div class="logo">
