@@ -113,10 +113,17 @@
     color: var(--illustrations-color)
   }
 
+  .p-xsmall {
+    font-family: 'B612', sans-serif;
+    font-size: var(--text-p-xsmall);
+    line-height: 1.5;
+    color: var(--illustrations-color)
+  }
+
   /* Buttons */
   .btn {
     display: inline-block;
-    padding: 0.5rem 1rem;
+    padding: 0.4rem 1rem;
     border-radius: 9999px;
     font-weight: 500;
     text-align: center;
@@ -151,5 +158,6 @@
   .text-p-large { font-size: 1.5rem; /* 24px */ }
   .text-p-medium { font-size: 1rem; /* 16px */ }
   .text-p-small { font-size: 0.75rem; /* 12px */ }
+  .text-p-xsmall { font-size: 0.5rem; /* 8px */ }
 
 }

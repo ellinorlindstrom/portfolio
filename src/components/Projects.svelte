@@ -1,7 +1,3 @@
-<script>
-	import { css } from 'styled-system/css';
-</script>
-
 <h2 class="section-heading">Projects</h2>
 <div class="projects-container">
 	<div class="frame-container">
@@ -13,24 +9,39 @@
 				class="frame"
 			/>
 		</a>
-		<h3 class="project-title">Star Wars Encyclopedia</h3>
+		<h3 class="project-title">Portfolio - current</h3>
 		<p class="project-description">
-			School project. All things Star Wars—films, characters, planets, starships, and more, built in
-			react.
+			My new portfolio, built with SvelteKit. Check out the code on Github and the UI/UX design
+			process here.
 		</p>
 	</div>
 	<div class="frame-container">
-		<a href="https://starwarsfunkyclopedia.netlify.app/" target="_blank" rel="noopener noreferrer">
+		<a href="https://ellinorlindstrom.netlify.app/" target="_blank" rel="noopener noreferrer">
 			<img
 				src="../projects/3d-portfolio-framed.png"
-				alt="Star wars encyclopedia project"
+				alt="3d portfolio project"
 				loading="lazy"
 				class="frame"
 			/>
 		</a>
-		<h3 class="project-title">Star Wars Encyclopedia</h3>
+		<h3 class="project-title">3D portfolio - old</h3>
 		<p class="project-description">
-			School project. All things Star Wars—films, characters, planets, starships, and more, built in
+			My previous portfolio, built with 3D elements using Three.js. I was, and still am, intrigued
+			by 3D design and all the possibilities it offers.
+		</p>
+	</div>
+	<div class="frame-container">
+		<a href="https://popcornparadise.netlify.app/" target="_blank" rel="noopener noreferrer">
+			<img
+				src="../projects/movie-db-framed.png"
+				alt="Popcorn paradise movie database project"
+				loading="lazy"
+				class="frame"
+			/>
+		</a>
+		<h3 class="project-title">Movie Database</h3>
+		<p class="project-description">
+			School project. All your latest, most popular and top rated movies in one place, built in
 			react.
 		</p>
 	</div>
@@ -46,21 +57,6 @@
 		<h3 class="project-title">Star Wars Encyclopedia</h3>
 		<p class="project-description">
 			School project. All things Star Wars—films, characters, planets, starships, and more, built in
-			react.
-		</p>
-	</div>
-	<div class="frame-container">
-		<a href="https://popcornparadise.netlify.app/" target="_blank" rel="noopener noreferrer">
-			<img
-				src="../projects/movie-db-framed.png"
-				alt="Popcorn paradise movie database project"
-				loading="lazy"
-				class="frame"
-			/>
-		</a>
-		<h3 class="project-title">Movie Database</h3>
-		<p class="project-description">
-			School project. All your latest, most popular and top rated movies in one place, built in
 			react.
 		</p>
 	</div>
@@ -162,7 +158,20 @@
 
 		.frame-container:nth-child(7) {
 			grid-column: 2;
-			grid-row: 2 / span 3;
+			grid-row: 2 / span 2;
+		}
+
+		.frame-container a {
+			display: inline-block;
+			width: 100%;
+			transition: transform 0.3s ease;
+		}
+		.frame-container:nth-child(odd) a:hover {
+			transform: rotate(-1deg);
+		}
+
+		.frame-container:nth-child(even) a:hover {
+			transform: rotate(1deg);
 		}
 	}
 </style>
