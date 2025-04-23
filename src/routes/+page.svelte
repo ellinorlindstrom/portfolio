@@ -9,5 +9,5 @@
 <div class="layout-container">
 	<Hero />
 	<Projects />
-	<Footer />
 </div>
+<Footer />

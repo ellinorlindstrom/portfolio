@@ -10,7 +10,7 @@
 			for UX/UI, creating clean, accessible and delightful digital experiences, blending technical
 			expertise with creative problem-solving.
 		</p>
-		<button class="btn btn-primary text-p-small">Read more!</button>
+		<a href="/about" class="btn btn-primary text-p-small">Read more!</a>
 	</div>
 	<a href="/about">
 		<div class="image-container">
@@ -69,5 +69,10 @@
 	}
 	.image-container:hover .primary {
 		opacity: 0;
+	}
+
+	a.btn {
+		display: inline-block;
+		text-decoration: none;
 	}
 </style>

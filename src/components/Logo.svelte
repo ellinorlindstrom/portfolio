@@ -3,7 +3,9 @@
 </script>
 
 <div class="logo">
-	<img src={logoUrl} alt="Logo" />
+	<a href="/">
+		<img src={logoUrl} alt="Logo" />
+	</a>
 </div>
 
 <style>
