@@ -3,11 +3,11 @@
 	import Header from '../../components/Header.svelte';
 </script>
 
-<Header />
 <div class="layout-container">
-	<section class="about-text">
+	<Header />
+	<section class="about">
 		<h2 class="section-heading">About</h2>
-		<section class="about">
+		<section class="about-text-image">
 			<p class="section-description">
 				I'm a front-end developer with a passion for creating beautiful and functional user
 				interfaces. I love to learn new things within web development. I have experience with HTML,
@@ -31,16 +31,51 @@
 
 <style>
 	.layout-container {
-	}
-	.about-text {
 		display: flex;
 		flex-direction: column;
-		text-align: left;
+		height: 100vh;
+
+		padding-top: 0;
 	}
 
 	.about {
+		flex: 1;
 		display: flex;
-		flex-direction: row;
-		gap: 2rem;
+		flex-direction: column;
+		text-align: left;
+		padding: 4rem 1rem;
+	}
+
+	.about-text-image {
+		display: flex;
+		flex-direction: column;
+		gap: 1.5rem;
+		align-items: center;
+	}
+
+	.section-description {
+		width: 100%;
+	}
+
+	.about-image {
+		width: 100%;
+		max-width: 250px;
+		height: auto;
+	}
+
+	@media (min-width: 768px) {
+		.about-text-image {
+			flex-direction: row;
+			gap: 2rem;
+			align-items: flex-start;
+		}
+
+		.section-description {
+			flex: 1;
+		}
+
+		.about-image {
+			max-width: 300px;
+		}
 	}
 </style>

@@ -5,9 +5,15 @@
 	import Projects from '../components/Projects.svelte';
 </script>
 
-<Header />
 <div class="layout-container">
+	<Header />
 	<Hero />
 	<Projects />
+	<Footer />
 </div>
-<Footer />
+
+<style>
+	.layout-container {
+		padding-top: 0;
+	}
+</style>
