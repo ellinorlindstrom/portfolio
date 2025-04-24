@@ -79,7 +79,7 @@
 		display: flex;
 		flex-direction: column;
 		text-align: left;
-		padding: 2rem 1rem;
+		padding: 2rem 0;
 	}
 
 	.about-text-image {
