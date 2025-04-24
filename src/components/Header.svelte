@@ -1,6 +1,6 @@
 <script>
-	import ThemeToggle from './ThemeToggle.svelte';
-	import Logo from './Logo.svelte';
+	/* 	import ThemeToggle from './ThemeToggle.svelte';
+	 */ import Logo from './Logo.svelte';
 </script>
 
 <header>
@@ -8,9 +8,9 @@
 		<div class="logo-container">
 			<Logo />
 		</div>
-		<div class="toggle-container">
+		<!-- <div class="toggle-container">
 			<ThemeToggle />
-		</div>
+		</div> -->
 	</div>
 </header>
 
