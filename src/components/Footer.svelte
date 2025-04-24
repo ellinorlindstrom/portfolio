@@ -4,9 +4,25 @@
 
 <footer>
 	<section class="social-icons">
-		<img src="../icons/mail.png" alt="mail icon" width="30" height="30" loading="lazy" />
-		<img src="../icons/github.png" alt="github icon" width="30" height="30" loading="lazy" />
-		<img src="../icons/linkedin.png" alt="linkedin icon" width="30" height="30" loading="lazy" />
+		<a href="mailto:lindstrom.elle@gmail.com" aria-label="Email">
+			<img src="../icons/mail.png" alt="mail icon" width="30" height="30" loading="lazy" />
+		</a>
+		<a
+			href="https://github.com/ellinorlindstrom"
+			target="_blank"
+			rel="noopener noreferrer"
+			aria-label="GitHub"
+		>
+			<img src="../icons/github.png" alt="github icon" width="30" height="30" loading="lazy" />
+		</a>
+		<a
+			href="https://www.linkedin.com/in/ellinor-amanda-lindstrom/"
+			target="_blank"
+			rel="noopener noreferrer"
+			aria-label="LinkedIn"
+		>
+			<img src="../icons/linkedin.png" alt="linkedin icon" width="30" height="30" loading="lazy" />
+		</a>
 	</section>
 	<p>©{currentYear} Ellinor Lindström</p>
 </footer>
