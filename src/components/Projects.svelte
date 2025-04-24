@@ -14,6 +14,20 @@
 			My new portfolio, built with SvelteKit. Check out the code on Github and the UI/UX design
 			process here.
 		</p>
+		<div class="project-buttons">
+			<a
+				href="https://www.figma.com/design/KjA3bS4vxcRkdgIyx6tcRi/Portfolio---illustrated?node-id=0-1&t=d32dlqFe2ELdVUoN-1"
+				class="btn btn-primary text-p-small"
+				target="_blank"
+				rel="noopener noreferrer">View design process</a
+			>
+			<a
+				href="https://github.com/ellinorlindstrom/portfolio"
+				class="btn btn-primary text-p-small"
+				target="_blank"
+				rel="noopener noreferrer">View on GitHub</a
+			>
+		</div>
 	</div>
 	<div class="frame-container">
 		<a href="https://ellinorlindstrom.netlify.app/" target="_blank" rel="noopener noreferrer">
@@ -24,11 +38,25 @@
 				class="frame"
 			/>
 		</a>
-		<h3 class="project-title">3D portfolio - old</h3>
+		<h3 class="project-title">3D portfolio - previous</h3>
 		<p class="project-description">
 			My previous portfolio, built with 3D elements using Three.js. I was, and still am, intrigued
 			by 3D design and all the possibilities it offers.
 		</p>
+		<div class="project-buttons">
+			<a
+				href="https://ellinorlindstrom.netlify.app/"
+				class="btn btn-primary text-p-small"
+				target="_blank"
+				rel="noopener noreferrer">View Website</a
+			>
+			<a
+				href="https://github.com/ellinorlindstrom/3d-portfolio"
+				class="btn btn-primary text-p-small"
+				target="_blank"
+				rel="noopener noreferrer">View on GitHub</a
+			>
+		</div>
 	</div>
 	<div class="frame-container">
 		<a href="https://popcornparadise.netlify.app/" target="_blank" rel="noopener noreferrer">
@@ -44,6 +72,20 @@
 			School project. All your latest, most popular and top rated movies in one place, built in
 			react.
 		</p>
+		<div class="project-buttons">
+			<a
+				href="https://popcornparadise.netlify.app/"
+				class="btn btn-primary text-p-small"
+				target="_blank"
+				rel="noopener noreferrer">View Website</a
+			>
+			<a
+				href="https://github.com/ellinorlindstrom/popcorn-paradise"
+				class="btn btn-primary text-p-small"
+				target="_blank"
+				rel="noopener noreferrer">View on GitHub</a
+			>
+		</div>
 	</div>
 	<div class="frame-container">
 		<a href="https://starwarsfunkyclopedia.netlify.app/" target="_blank" rel="noopener noreferrer">
@@ -59,6 +101,20 @@
 			School project. All things Star Wars—films, characters, planets, starships, and more, built in
 			react.
 		</p>
+		<div class="project-buttons">
+			<a
+				href="https://starwarsfunkyclopedia.netlify.app/"
+				class="btn btn-primary text-p-small"
+				target="_blank"
+				rel="noopener noreferrer">View Website</a
+			>
+			<a
+				href="https://github.com/ellinorlindstrom/star-wars-encyclopedia"
+				class="btn btn-primary text-p-small"
+				target="_blank"
+				rel="noopener noreferrer">View on GitHub</a
+			>
+		</div>
 	</div>
 	<div class="frame-container">
 		<a href="https://lollyland-express.netlify.app/" target="_blank" rel="noopener noreferrer">
@@ -71,6 +127,20 @@
 		</a>
 		<h3 class="project-title">Candy Shop</h3>
 		<p class="project-description">Candy shop built with two of my classmates using JS. Indulge!</p>
+		<div class="project-buttons">
+			<a
+				href="https://lollyland-express.netlify.app/"
+				class="btn btn-primary text-p-small"
+				target="_blank"
+				rel="noopener noreferrer">View Website</a
+			>
+			<a
+				href="https://github.com/ellinorlindstrom/lollyland-express"
+				class="btn btn-primary text-p-small"
+				target="_blank"
+				rel="noopener noreferrer">View on GitHub</a
+			>
+		</div>
 	</div>
 	<div class="frame-container">
 		<a href="https://country-flag-quiz.netlify.app/" target="_blank" rel="noopener noreferrer">
@@ -81,6 +151,20 @@
 			Interactive challenge originally featuring classmates, exchanged for a flag-country matching
 			game, using HTML, CSS, and JS for collaborative learning.
 		</p>
+		<div class="project-buttons">
+			<a
+				href="https://country-flag-quiz.netlify.app/"
+				class="btn btn-primary text-p-small"
+				target="_blank"
+				rel="noopener noreferrer">View Website</a
+			>
+			<a
+				href="https://github.com/ellinorlindstrom/world-quiz"
+				class="btn btn-primary text-p-small"
+				target="_blank"
+				rel="noopener noreferrer">View on GitHub</a
+			>
+		</div>
 	</div>
 	<div class="frame-container">
 		<a href="https://vimeo.com/1076489845?share=copy" target="_blank" rel="noopener noreferrer">
@@ -98,6 +182,20 @@
 			learned a lot from this project. Especially the importance of thorough planning, something I
 			would've spent more time of if I were to do this again.
 		</p>
+		<div class="project-buttons">
+			<a
+				href="https://vimeo.com/1076489845?share=copy"
+				class="btn btn-primary text-p-small"
+				target="_blank"
+				rel="noopener noreferrer">View video demo</a
+			>
+			<a
+				href="https://github.com/ellinorlindstrom/stride-quest"
+				class="btn btn-primary text-p-small"
+				target="_blank"
+				rel="noopener noreferrer">View on GitHub</a
+			>
+		</div>
 	</div>
 </div>
 
@@ -119,6 +217,17 @@
 		font-size: 0.8rem;
 		margin-top: 0.5rem;
 		width: 75%;
+	}
+
+	.project-buttons {
+		display: flex;
+		gap: 1rem;
+		margin-top: 0.5rem;
+	}
+
+	a.btn {
+		display: inline-block;
+		text-decoration: none;
 	}
 
 	@media (min-width: 769px) {
@@ -161,16 +270,16 @@
 			grid-row: 2 / span 2;
 		}
 
-		.frame-container a {
+		.frame {
 			display: inline-block;
 			width: 100%;
 			transition: transform 0.3s ease;
 		}
-		.frame-container:nth-child(odd) a:hover {
+		.frame:nth-child(odd):hover {
 			transform: rotate(-1deg);
 		}
 
-		.frame-container:nth-child(even) a:hover {
+		.frame:nth-child(even):hover {
 			transform: rotate(1deg);
 		}
 	}

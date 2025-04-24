@@ -6,7 +6,7 @@
 <div class="layout-container">
 	<Header />
 	<section class="about">
-		<h2 class="section-heading">About</h2>
+		<h1 class="section-heading">About</h1>
 		<section class="about-text-image">
 			<p class="section-description">
 				I'm a front-end developer with a passion for creating beautiful and functional user

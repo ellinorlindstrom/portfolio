@@ -27,7 +27,7 @@
     --illustrations-color: #002FA7;
     --secondary-600: #7F7373;
     --secondary-400: #AEAEAE;
-    --background-color: #FFFFFF;
+    --background-color: #FCFCFD;    
     --background-text: #FFF5EE;
     --text-color: #333333;
 
@@ -122,11 +122,12 @@
     display: inline-block;
     padding: 0.4rem 1rem;
     border-radius: 9999px;
-    font-weight: 500;
+    font-weight: bold;
     text-align: center;
-    cursor: pointer;
     transition: background-color 0.3s ease;
     margin-top: var(--space-5);
+    text-decoration: none;
+    cursor: pointer;
   }
 
   .btn-primary {
