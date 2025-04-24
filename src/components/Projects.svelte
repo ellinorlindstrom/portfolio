@@ -11,8 +11,7 @@
 		</a>
 		<h3 class="project-title">Portfolio - current</h3>
 		<p class="project-description">
-			My new portfolio, built with SvelteKit. Check out the code on Github and the UI/UX design
-			process here.
+			My new portfolio, built with SvelteKit. Check out the the design process in figma.
 		</p>
 		<div class="project-buttons">
 			<a
@@ -40,8 +39,8 @@
 		</a>
 		<h3 class="project-title">3D portfolio - previous</h3>
 		<p class="project-description">
-			My previous portfolio, built with 3D elements using Three.js. I was, and still am, intrigued
-			by 3D design and all the possibilities it offers.
+			My previous portfolio, built with 3D elements using Three.js. I am intrigued by 3D design and
+			all the possibilities it offers.
 		</p>
 		<div class="project-buttons">
 			<a
@@ -69,7 +68,7 @@
 		</a>
 		<h3 class="project-title">Movie Database</h3>
 		<p class="project-description">
-			School project. All your latest, most popular and top rated movies in one place, built in
+			School project. All your latest, most popular, and top rated movies in one place, built in
 			react.
 		</p>
 		<div class="project-buttons">
@@ -149,7 +148,7 @@
 		<h3 class="project-title">Flaq Quiz</h3>
 		<p class="project-description">
 			Interactive challenge originally featuring classmates, exchanged for a flag-country matching
-			game, using HTML, CSS, and JS for collaborative learning.
+			game, using HTML, CSS, and JS.
 		</p>
 		<div class="project-buttons">
 			<a
@@ -180,7 +179,8 @@
 			An iOS application created using Swift that transforms users' real-world fitness activities
 			into virtual journeys on a map, making exercise more engaging and a learning experience. I
 			learned a lot from this project. Especially the importance of thorough planning, something I
-			would've spent more time of if I were to do this again.
+			would've spent more time of if I were to do this again. I was learning Swift and Xcode at the
+			same time, so I had to learn a lot of new things in a short time.
 		</p>
 		<div class="project-buttons">
 			<a
