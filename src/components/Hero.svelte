@@ -35,7 +35,7 @@
 		</p>
 		<a href="/about" class="btn btn-primary text-p-small">Read more!</a>
 	</div>
-	{#if imagesLoaded}
+	{#if !isMobile && imagesLoaded}
 		<a href="/about">
 			<div class="image-container">
 				<img
