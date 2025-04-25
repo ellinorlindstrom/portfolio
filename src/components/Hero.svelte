@@ -3,15 +3,24 @@
 	import { browser } from '$app/environment';
 	import { onMount } from 'svelte';
 
-	let isMobile = false;
+	let isMobile = true;
+	let imagesLoaded = false;
 
 	onMount(() => {
 		if (browser) {
 			const checkMobile = () => window.innerWidth <= 768;
 			isMobile = checkMobile();
+			if (!isMobile) {
+				imagesLoaded = true;
+			}
 
 			window.addEventListener('resize', () => {
-				isMobile = checkMobile();
+				const wasMobile = isMobile;
+				isMobile = window.innerWidth <= 768;
+
+				if (wasMobile && !isMobile) {
+					imagesLoaded = true;
+				}
 			});
 		}
 	});
@@ -26,7 +35,7 @@
 		</p>
 		<a href="/about" class="btn btn-primary text-p-small">Read more!</a>
 	</div>
-	{#if !isMobile}
+	{#if imagesLoaded}
 		<a href="/about">
 			<div class="image-container">
 				<img
@@ -59,33 +68,35 @@
 		padding: 2rem 0 0 0;
 	}
 
-	.image-container {
-		position: relative;
-		width: 350px;
-	}
-
-	.image {
-		width: 100%;
-		height: auto;
-		margin-left: 100px;
-	}
-
-	.hover {
-		position: absolute;
-		top: 0;
-		left: 0;
-		opacity: 0;
-	}
-
-	.image-container:hover .hover {
-		opacity: 1;
-	}
-	.image-container:hover .primary {
-		opacity: 0;
-	}
-
 	a.btn {
 		display: inline-block;
 		text-decoration: none;
+	}
+
+	@media (min-width: 769px) {
+		.image-container {
+			position: relative;
+			width: 350px;
+		}
+
+		.image {
+			width: 100%;
+			height: auto;
+			margin-left: 100px;
+		}
+
+		.hover {
+			position: absolute;
+			top: 0;
+			left: 0;
+			opacity: 0;
+		}
+
+		.image-container:hover .hover {
+			opacity: 1;
+		}
+		.image-container:hover .primary {
+			opacity: 0;
+		}
 	}
 </style>
