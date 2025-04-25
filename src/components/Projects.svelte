@@ -18,13 +18,13 @@
 				href="https://www.figma.com/design/KjA3bS4vxcRkdgIyx6tcRi/Portfolio---illustrated?node-id=0-1&t=d32dlqFe2ELdVUoN-1"
 				class="btn btn-primary text-p-small"
 				target="_blank"
-				rel="noopener noreferrer">View design process</a
+				rel="noopener noreferrer">Design process</a
 			>
 			<a
 				href="https://github.com/ellinorlindstrom/portfolio"
 				class="btn btn-primary text-p-small"
 				target="_blank"
-				rel="noopener noreferrer">View on GitHub</a
+				rel="noopener noreferrer">GitHub</a
 			>
 		</div>
 	</div>
@@ -47,13 +47,13 @@
 				href="https://ellinorlindstrom.netlify.app/"
 				class="btn btn-primary text-p-small"
 				target="_blank"
-				rel="noopener noreferrer">View Website</a
+				rel="noopener noreferrer">Website</a
 			>
 			<a
 				href="https://github.com/ellinorlindstrom/3d-portfolio"
 				class="btn btn-primary text-p-small"
 				target="_blank"
-				rel="noopener noreferrer">View on GitHub</a
+				rel="noopener noreferrer">GitHub</a
 			>
 		</div>
 	</div>
@@ -76,13 +76,13 @@
 				href="https://popcornparadise.netlify.app/"
 				class="btn btn-primary text-p-small"
 				target="_blank"
-				rel="noopener noreferrer">View Website</a
+				rel="noopener noreferrer">Website</a
 			>
 			<a
 				href="https://github.com/ellinorlindstrom/popcorn-paradise"
 				class="btn btn-primary text-p-small"
 				target="_blank"
-				rel="noopener noreferrer">View on GitHub</a
+				rel="noopener noreferrer">GitHub</a
 			>
 		</div>
 	</div>
@@ -105,13 +105,13 @@
 				href="https://starwarsfunkyclopedia.netlify.app/"
 				class="btn btn-primary text-p-small"
 				target="_blank"
-				rel="noopener noreferrer">View Website</a
+				rel="noopener noreferrer">Website</a
 			>
 			<a
 				href="https://github.com/ellinorlindstrom/star-wars-encyclopedia"
 				class="btn btn-primary text-p-small"
 				target="_blank"
-				rel="noopener noreferrer">View on GitHub</a
+				rel="noopener noreferrer">GitHub</a
 			>
 		</div>
 	</div>
@@ -131,13 +131,13 @@
 				href="https://lollyland-express.netlify.app/"
 				class="btn btn-primary text-p-small"
 				target="_blank"
-				rel="noopener noreferrer">View Website</a
+				rel="noopener noreferrer">Website</a
 			>
 			<a
 				href="https://github.com/ellinorlindstrom/lollyland-express"
 				class="btn btn-primary text-p-small"
 				target="_blank"
-				rel="noopener noreferrer">View on GitHub</a
+				rel="noopener noreferrer">GitHub</a
 			>
 		</div>
 	</div>
@@ -155,13 +155,13 @@
 				href="https://country-flag-quiz.netlify.app/"
 				class="btn btn-primary text-p-small"
 				target="_blank"
-				rel="noopener noreferrer">View Website</a
+				rel="noopener noreferrer">Website</a
 			>
 			<a
 				href="https://github.com/ellinorlindstrom/world-quiz"
 				class="btn btn-primary text-p-small"
 				target="_blank"
-				rel="noopener noreferrer">View on GitHub</a
+				rel="noopener noreferrer">GitHub</a
 			>
 		</div>
 	</div>
@@ -187,13 +187,13 @@
 				href="https://vimeo.com/1076489845?share=copy"
 				class="btn btn-primary text-p-small"
 				target="_blank"
-				rel="noopener noreferrer">View video demo</a
+				rel="noopener noreferrer">Video demo</a
 			>
 			<a
 				href="https://github.com/ellinorlindstrom/stride-quest"
 				class="btn btn-primary text-p-small"
 				target="_blank"
-				rel="noopener noreferrer">View on GitHub</a
+				rel="noopener noreferrer">GitHub</a
 			>
 		</div>
 	</div>
@@ -208,7 +208,7 @@
 	}
 
 	.project-title {
-		font-size: 1.5rem;
+		font-size: 1.15rem;
 		margin-top: 1rem;
 	}
 
@@ -216,7 +216,6 @@
 		color: var(--text-color);
 		font-size: 0.8rem;
 		margin-top: 0.5rem;
-		width: 75%;
 	}
 
 	.project-buttons {
@@ -228,6 +227,10 @@
 	a.btn {
 		display: inline-block;
 		text-decoration: none;
+	}
+
+	.section-heading {
+		margin-top: 2rem;
 	}
 
 	@media (min-width: 769px) {

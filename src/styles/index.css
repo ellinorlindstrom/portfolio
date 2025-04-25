@@ -54,39 +54,39 @@
   /* Headings */
   h1, .heading-1 {
     font-family: 'Aboreto', sans-serif;
-    font-size: 3.25rem; /* 52px */
+    font-size: 2.125rem; /* ~34px - your new size */
     color: var(--primary-color);
     margin-bottom: var(--space-4);
   }
-
+  
   h2, .heading-2 {
     font-family: 'Aboreto', sans-serif;
-    font-size: 2.625rem; /* 42px */
+    font-size: 1.875rem; /* 30px - more contrast from h1 */
     color: var(--primary-color);
     margin-bottom: var(--space-4);
   }
-
+  
   h3 {
     font-family: 'Aboreto', sans-serif;
-    font-size: 1.875rem; /* 30px */
+    font-size: 1.625rem; /* 26px */
     color: var(--primary-color);
   }
-
+  
   h4 {
     font-family: 'Aboreto', sans-serif;
-    font-size: 1.5rem; /* 24px */
+    font-size: 1.375rem; /* 22px */
     color: var(--primary-color);
   }
-
+  
   h5 {
     font-family: 'Aboreto', sans-serif;
     font-size: 1.125rem; /* 18px */
     color: var(--primary-color);
   }
-
-  h6{
+  
+  h6 {
     font-family: 'Aboreto', sans-serif;
-    font-size: 1.0625rem; /* 17px */
+    font-size: 1rem; /* 16px */
     color: var(--primary-color);
   }
 

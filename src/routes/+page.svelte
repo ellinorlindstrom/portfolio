@@ -13,19 +13,21 @@
 </div>
 
 <style>
-	.layout-container {
-		padding-top: 0;
-		position: relative;
-	}
+	@media (min-width: 769px) {
+		.layout-container {
+			padding-top: 0;
+			position: relative;
+		}
 
-	:global(.hero) {
-		position: relative;
-		z-index: 2;
-		margin-bottom: -250px;
-		padding-bottom: 100px;
-	}
-	:global(.projects-container) {
-		position: relative;
-		z-index: 1;
+		:global(.hero) {
+			position: relative;
+			z-index: 2;
+			margin-bottom: -250px;
+			padding-bottom: 100px;
+		}
+		:global(.projects-container) {
+			position: relative;
+			z-index: 1;
+		}
 	}
 </style>
