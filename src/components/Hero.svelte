@@ -1,6 +1,6 @@
 <script>
-	import { browser } from '$app/environment';
 	import { css } from 'styled-system/css';
+	import { browser } from '$app/environment';
 	import { onMount } from 'svelte';
 
 	let isMobile = false;
@@ -21,10 +21,8 @@
 	<div class="introduction">
 		<h1 class={css({ fontSize: '2.625rem' }) + ' text-h1'}>Hi, I'm Ellinor,</h1>
 		<p class="p-medium">
-			Welcome to my code-gallery. I'm a frontend developer based in Malmö, Sweden, crafting clean,
-			accessible, and delightful web experiences. With an enthusiasm for UX/UI design and a strong
-			desire to learn new technologies, I strive to transform ideas into code that connects with
-			users.
+			Welcome to my code-gallery. I'm a developer based in Malmö, Sweden, with an enthusiasm for
+			UX/UI design and a strong desire to learn.
 		</p>
 		<a href="/about" class="btn btn-primary text-p-small">Read more!</a>
 	</div>
@@ -32,7 +30,7 @@
 		<a href="/about">
 			<div class="image-container">
 				<img
-					src="../icons/portfolio-portrait.png"
+					src="../icons/portrait.png"
 					alt="A portrait of Ellinor Lindström"
 					width="500"
 					height="auto"
@@ -40,7 +38,7 @@
 					class="image primary"
 				/>
 				<img
-					src="../icons/portfolio-portrait-hover.png"
+					src="../icons/portrait-hover.png"
 					alt="A portrait of Ellinor Lindström"
 					width="500"
 					height="auto"
@@ -58,7 +56,7 @@
 		flex-direction: row;
 		align-items: flex-start;
 		text-align: left;
-		padding: 2rem 0;
+		padding: 2rem 0 0 0;
 	}
 
 	.image-container {
@@ -69,6 +67,7 @@
 	.image {
 		width: 100%;
 		height: auto;
+		margin-left: 100px;
 	}
 
 	.hover {

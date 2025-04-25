@@ -1,14 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Averia+Libre:wght@400;700&family=B612:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto:wght@400;700&family=Georama:wght@400;700&display=swap');
 
 
 @layer reset, base, tokens, recipes, utilities;
 
 @layer base {
+
+  html {
+    background-color: var(--background-color);
+  }
   
   .layout-container {
     padding: 2rem 2rem 0.5rem;
     margin: 0 auto;
-    background-color: var(--background-color);
     color: var(--text-color);
     max-width: 1200px;
  
@@ -24,10 +27,10 @@
   /* Colors */
   :root {
     --primary-color: #002481;
-    --illustrations-color: #002FA7;
+    --illustration-color: #002FA7;
     --secondary-600: #7F7373;
     --secondary-400: #AEAEAE;
-    --background-color: #FCFCFD;    
+    --background-color: #f5f1e9;    
     --background-text: #FFF5EE;
     --text-color: #333333;
 
@@ -50,69 +53,70 @@
   /* Typography */
   /* Headings */
   h1, .heading-1 {
-    font-family: 'Averia Libre', serif;
+    font-family: 'Aboreto', sans-serif;
     font-size: 3.25rem; /* 52px */
     color: var(--primary-color);
     margin-bottom: var(--space-4);
   }
 
   h2, .heading-2 {
-    font-family: 'Averia Libre', serif;
+    font-family: 'Aboreto', sans-serif;
     font-size: 2.625rem; /* 42px */
     color: var(--primary-color);
+    margin-bottom: var(--space-4);
   }
 
   h3 {
-    font-family: 'Averia Libre', serif;
+    font-family: 'Aboreto', sans-serif;
     font-size: 1.875rem; /* 30px */
     color: var(--primary-color);
   }
 
   h4 {
-    font-family: 'Averia Libre', serif;
+    font-family: 'Aboreto', sans-serif;
     font-size: 1.5rem; /* 24px */
     color: var(--primary-color);
   }
 
   h5 {
-    font-family: 'Averia Libre', serif;
+    font-family: 'Aboreto', sans-serif;
     font-size: 1.125rem; /* 18px */
     color: var(--primary-color);
   }
 
   h6{
-    font-family: 'Averia Libre', serif;
+    font-family: 'Aboreto', sans-serif;
     font-size: 1.0625rem; /* 17px */
     color: var(--primary-color);
   }
 
   /* Paragraphs */
   .p-large {
-    font-family: 'B612', sans-serif;
+    font-family: 'Georama', sans-sans-serif;
     font-size: 1.5rem; /* 24px */
     line-height: 1.5;
-    color: var(--illustrations-color)
+    color: var(--text-color)
   }
 
   .p-medium {
-    font-family: 'B612', sans-serif;
+    font-family: 'Georama', sans-sans-serif;
     font-size: 1rem; /* 16px */
     line-height: 1.5;
-    color: var(--illustrations-color)
+    color: var(--text-color)
   }
 
   .p-small {
-    font-family: 'B612', sans-serif;
+    font-family: 'Georama', sans-sans-serif;
     font-size: 0.75rem; /* 12px */
     line-height: 1.5;
-    color: var(--illustrations-color)
+    color: var(--text-color)
   }
 
   .p-xsmall {
-    font-family: 'B612', sans-serif;
+    font-family: 'Georama', sans-sans-serif;
     font-size: var(--text-p-xsmall);
     line-height: 1.5;
-    color: var(--illustrations-color)
+    color: var(--text-color)
   }
 
   /* Buttons */
@@ -134,7 +138,7 @@
   }
 
   .btn-primary:hover {
-    background-color: var(--illustrations-color);
+    background-color: var(--illustration-color);
   }
 }
 

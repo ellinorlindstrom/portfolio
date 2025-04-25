@@ -1,10 +1,10 @@
 <h2 class="section-heading">Projects</h2>
 <div class="projects-container">
 	<div class="frame-container">
-		<a href="https://starwarsfunkyclopedia.netlify.app/" target="_blank" rel="noopener noreferrer">
+		<a href="https://ellinorlindstrom.com/" rel="noopener noreferrer">
 			<img
 				src="../projects/portfolio-framed.png"
-				alt="Star wars encyclopedia project"
+				alt="Current portfolio project"
 				loading="lazy"
 				class="frame"
 			/>
