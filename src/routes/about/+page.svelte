@@ -90,7 +90,7 @@
 	}
 
 	.section-heading {
-		font-size: 1.5rem;
+		font-size: 1.15rem;
 		margin: 1rem 0 0.5rem 0;
 	}
 
