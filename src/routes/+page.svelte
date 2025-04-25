@@ -15,7 +15,6 @@
 <style>
 	@media (min-width: 769px) {
 		.layout-container {
-			padding-top: 0;
 			position: relative;
 		}
 
