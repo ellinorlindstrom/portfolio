@@ -30,8 +30,8 @@
 	<div class="introduction">
 		<h1>Hi, I'm Ellinor,</h1>
 		<p class="p-medium">
-			Welcome to my code-gallery. I'm a developer based in Malmö, Sweden, with an enthusiasm for
-			UX/UI design and a strong desire to learn.
+			Welcome to my code-gallery! I'm a developer based in Malmö, Sweden, with an enthusiasm for
+			UX/UI design and a strong desire to learn and evolve 💫
 		</p>
 		<a href="/about" class="btn btn-primary text-p-small">Read more!</a>
 	</div>
