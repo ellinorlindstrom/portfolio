@@ -51,6 +51,7 @@
 					digital illustration, oil painting, watercolor, and traditional sketching, which helps me
 					develop a better eye for design in my professional work.
 				</p>
+				<a href="/" class="btn btn-primary text-p-small">Projects</a>
 			</div>
 
 			<img
@@ -58,7 +59,6 @@
 				alt="Portrait photagraphy of Ellinor Lindström"
 				width="300"
 				height="auto"
-				loading="lazy"
 				class="about-image"
 			/>
 		</section>

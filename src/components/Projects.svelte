@@ -2,12 +2,7 @@
 <div class="projects-container">
 	<div class="frame-container">
 		<a href="https://ellinorlindstrom.com/" rel="noopener noreferrer">
-			<img
-				src="../projects/portfolio-framed.png"
-				alt="Current portfolio project"
-				loading="lazy"
-				class="frame"
-			/>
+			<img src="../projects/portfolio-framed.png" alt="Current portfolio project" class="frame" />
 		</a>
 		<h3 class="project-title">Portfolio - current</h3>
 		<p class="project-description">
@@ -30,12 +25,7 @@
 	</div>
 	<div class="frame-container">
 		<a href="https://ellinorlindstrom.netlify.app/" target="_blank" rel="noopener noreferrer">
-			<img
-				src="../projects/3d-portfolio-framed.png"
-				alt="3d portfolio project"
-				loading="lazy"
-				class="frame"
-			/>
+			<img src="../projects/3d-portfolio-framed.png" alt="3d portfolio project" class="frame" />
 		</a>
 		<h3 class="project-title">3D portfolio - previous</h3>
 		<p class="project-description">
@@ -58,11 +48,37 @@
 		</div>
 	</div>
 	<div class="frame-container">
+		<a href="https://vimeo.com/1076489845?share=copy" target="_blank" rel="noopener noreferrer">
+			<img src="../projects/sq-framed.png" alt="Stride quest project" class="frame" />
+		</a>
+		<h3 class="project-title">Stride quest</h3>
+		<p class="project-description">
+			An iOS application created using Swift that transforms users' real-world fitness activities
+			into virtual journeys on a map, making exercise more engaging and a learning experience. I
+			learned a lot from this project. Especially the importance of thorough planning, something I
+			would've spent more time of if I were to do this again. I was learning Swift and Xcode at the
+			same time, so I had to learn a lot of new things in a short time.
+		</p>
+		<div class="project-buttons">
+			<a
+				href="https://vimeo.com/1076489845?share=copy"
+				class="btn btn-primary text-p-small"
+				target="_blank"
+				rel="noopener noreferrer">Video demo</a
+			>
+			<a
+				href="https://github.com/ellinorlindstrom/stride-quest"
+				class="btn btn-primary text-p-small"
+				target="_blank"
+				rel="noopener noreferrer">GitHub</a
+			>
+		</div>
+	</div>
+	<div class="frame-container">
 		<a href="https://popcornparadise.netlify.app/" target="_blank" rel="noopener noreferrer">
 			<img
 				src="../projects/movie-db-framed.png"
 				alt="Popcorn paradise movie database project"
-				loading="lazy"
 				class="frame"
 			/>
 		</a>
@@ -91,7 +107,6 @@
 			<img
 				src="../projects/star-wars-framed.png"
 				alt="Star wars encyclopedia project"
-				loading="lazy"
 				class="frame"
 			/>
 		</a>
@@ -120,7 +135,6 @@
 			<img
 				src="../projects/candy-shop-framed.png"
 				alt="Lollyland express candy shop project"
-				loading="lazy"
 				class="frame"
 			/>
 		</a>
@@ -143,7 +157,7 @@
 	</div>
 	<div class="frame-container">
 		<a href="https://country-flag-quiz.netlify.app/" target="_blank" rel="noopener noreferrer">
-			<img src="../projects/quiz-framed.png" alt="Flag quiz project" loading="lazy" class="frame" />
+			<img src="../projects/quiz-framed.png" alt="Flag quiz project" class="frame" />
 		</a>
 		<h3 class="project-title">Flaq Quiz</h3>
 		<p class="project-description">
@@ -159,38 +173,6 @@
 			>
 			<a
 				href="https://github.com/ellinorlindstrom/world-quiz"
-				class="btn btn-primary text-p-small"
-				target="_blank"
-				rel="noopener noreferrer">GitHub</a
-			>
-		</div>
-	</div>
-	<div class="frame-container">
-		<a href="https://vimeo.com/1076489845?share=copy" target="_blank" rel="noopener noreferrer">
-			<img
-				src="../projects/sq-framed.png"
-				alt="Stride quest project"
-				loading="lazy"
-				class="frame"
-			/>
-		</a>
-		<h3 class="project-title">Stride quest</h3>
-		<p class="project-description">
-			An iOS application created using Swift that transforms users' real-world fitness activities
-			into virtual journeys on a map, making exercise more engaging and a learning experience. I
-			learned a lot from this project. Especially the importance of thorough planning, something I
-			would've spent more time of if I were to do this again. I was learning Swift and Xcode at the
-			same time, so I had to learn a lot of new things in a short time.
-		</p>
-		<div class="project-buttons">
-			<a
-				href="https://vimeo.com/1076489845?share=copy"
-				class="btn btn-primary text-p-small"
-				target="_blank"
-				rel="noopener noreferrer">Video demo</a
-			>
-			<a
-				href="https://github.com/ellinorlindstrom/stride-quest"
 				class="btn btn-primary text-p-small"
 				target="_blank"
 				rel="noopener noreferrer">GitHub</a
@@ -251,26 +233,26 @@
 		}
 
 		.frame-container:nth-child(3) {
-			grid-column: 1;
-			grid-row: 2;
+			grid-column: 2;
+			grid-row: 2 / span 2;
 		}
 
 		.frame-container:nth-child(4) {
 			grid-column: 1;
-			grid-row: 4;
+			grid-row: 2;
 		}
 		.frame-container:nth-child(5) {
 			grid-column: 1;
-			grid-row: 3;
+			grid-row: 4;
 		}
 		.frame-container:nth-child(6) {
-			grid-column: 2;
-			grid-row: 4;
+			grid-column: 1;
+			grid-row: 3;
 		}
 
 		.frame-container:nth-child(7) {
 			grid-column: 2;
-			grid-row: 2 / span 2;
+			grid-row: 4;
 		}
 
 		.frame {

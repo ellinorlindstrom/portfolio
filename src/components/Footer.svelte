@@ -5,7 +5,7 @@
 <footer>
 	<section class="social-icons">
 		<a href="mailto:lindstrom.elle@gmail.com" aria-label="Email">
-			<img src="../icons/mail.png" alt="mail icon" width="30" height="30" loading="lazy" />
+			<img src="../icons/mail.png" alt="mail icon" width="30" height="30" />
 		</a>
 		<a
 			href="https://github.com/ellinorlindstrom"
@@ -13,7 +13,7 @@
 			rel="noopener noreferrer"
 			aria-label="GitHub"
 		>
-			<img src="../icons/github.png" alt="github icon" width="30" height="30" loading="lazy" />
+			<img src="../icons/github.png" alt="github icon" width="30" height="30" />
 		</a>
 		<a
 			href="https://www.linkedin.com/in/ellinor-amanda-lindstrom/"
@@ -21,7 +21,7 @@
 			rel="noopener noreferrer"
 			aria-label="LinkedIn"
 		>
-			<img src="../icons/linkedin.png" alt="linkedin icon" width="30" height="30" loading="lazy" />
+			<img src="../icons/linkedin.png" alt="linkedin icon" width="30" height="30" />
 		</a>
 	</section>
 	<p>©{currentYear} Ellinor Lindström</p>

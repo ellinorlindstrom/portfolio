@@ -43,7 +43,6 @@
 					alt="A portrait of Ellinor Lindström"
 					width="500"
 					height="auto"
-					loading="lazy"
 					class="image primary"
 				/>
 				<img
@@ -51,7 +50,6 @@
 					alt="A portrait of Ellinor Lindström"
 					width="500"
 					height="auto"
-					loading="lazy"
 					class="image hover"
 				/>
 			</div>
